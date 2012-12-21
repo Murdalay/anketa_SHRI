@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:before,
+.clearfix:after
+{
+    display: table;
+    content: "";
+}
+
+.clearfix:after
+{
+    clear: both;
+}
+
+.icon
+{
+    display: block;
+    background: url(../i/i.png) no-repeat;
+}
+
+.icon_type_arrow
+{
+    background-position: -95px -1px ;
+    width: 16px;
+    height: 16px;
+}
+
+.icon_type_card
+{
+    background-position: -54px 0;
+    width: 24px;
+    height: 26px;
+}
+
+.icon_type_mail
+{
+    background-position: -27px -1px ;
+    width: 23px;
+    height: 23px;
+}
+
+.icon_type_phone
+{
+    background-position: 0 0;
+    width: 17px;
+    height: 24px;
+}
+
+.page
+{
+    background: url(../i/page-bg.png);
+}
+
+.page__body
+{
+    margin: auto;
+    min-width: 1000px;
+    max-width: 1082px;
+    background: url(../i/body.png) 50% 0 no-repeat;
+}
