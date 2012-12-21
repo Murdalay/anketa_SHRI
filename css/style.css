@@ -16,6 +16,8 @@
     clear: both;
 }
 
+
+
 .icon
 {
     display: block;
@@ -100,7 +102,7 @@
 .layout__lcol
 {
     float: left;
-    margin: 0 0 0 34px;
+    margin: 0 0 0 32px;
     width: 270px;
 }
 
@@ -164,6 +166,12 @@
     cursor: pointer;
 }
 
+.widget-area
+{
+    overflow: hidden;
+}
+
+
 .widget
 {
     position: relative;
@@ -178,20 +186,115 @@
     padding-left: 10px;
 }
 
+
 .widget_color_blue
 {
+    height: 432px;
     background: rgba(0, 134, 156, 0.7);
     cursor: default;
 }
 
 .widget_color_pink
 {
+    padding-bottom: 18px;
+
+    border-top: 1px solid #aa6e8f;
+    border-bottom: 1px solid #80506b;
     background: #76164c;
 }
 
 .widget_color_pink:hover
 {
     background: #bb1d48;
+}
+
+.widget_color_orange
+{
+    float: right;
+    width: 87px;
+    height: 127px;
+
+    background: rgba(211, 72, 39, 0.7);
+}
+
+.widget_color_orange:hover
+{
+    background: #d34827;
+}
+
+.widget_color_purple
+{
+    float: left;
+    width: 271px;
+    height: 67px;
+
+    background: rgba(118, 22, 76, 0.7);
+}
+
+.widget_color_purple:hover
+{
+    background: #76164c;
+}
+
+.widget_color_dark-grey
+{
+    float: left;
+    width: 130px;
+    height: 90px;
+    background: rgba(54, 54, 54, 0.7);
+
+}
+
+.widget_color_dark-grey:hover
+{
+    background: #363636;;
+}
+
+.widget_color_light-grey
+{
+    float: left;
+    width: 111px;
+    height: 90px;
+    background: rgba(99, 99, 99, 0.7);
+}
+
+.widget_color_light-grey:hover
+{
+    background: #636363;
+}
+
+.widget_color_light-pink
+{
+    float: left;
+    width: 87px;
+    height: 90px;
+    background: rgba(187, 29, 72, 0.7);
+}
+
+.widget_color_light-pink:hover
+{
+    background: #bb1d48;
+}
+
+.widget_color_brawn
+{
+    float: none;
+    background: rgba(176, 128, 0, 0.7);
+}
+
+.widget_color_brawn:hover
+{
+    background: #b08000;
+}
+
+.widget_color_violet
+{
+    background: rgba(44, 25, 86, 0.7);
+}
+
+.widget_color_violet:hover
+{
+    background: #2c1956;
 }
 
 .widget__title
@@ -203,6 +306,8 @@
 
     color: #000;
 }
+
+
 
 .col-title
 {
@@ -216,4 +321,51 @@
     color: #be1e4a;
 
     background: #252525;
+}
+
+.widget-area .col-title
+{
+    float: left;
+    width: 290px;
+}
+
+.col-footer
+{
+    height: 31px;
+
+    background: #252525;
+}
+
+.preview
+{
+    margin: 0 0 20px 0;
+    height: 280px;
+
+    background: #494949;
+}
+
+.preview__title
+{
+    font-size: 17px;
+    font-weight: normal;
+
+    margin: 0 0 0 15px;
+    padding: 0 0 0 15px;
+
+    height: 38px;
+    line-height: 38px;
+
+    color: #fff;
+    background: #d34827;
+}
+
+.preview__body
+{
+    display: none;
+    padding: 15px 15px 15px 30px;
+}
+
+.preview__body_visibility_visible
+{
+    display: block;
 }
