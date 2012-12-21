@@ -215,6 +215,21 @@ a
     background: #bb1d48;
 }
 
+.widget_color_black
+{
+    float: left;
+    width: 271px;
+    height: 30px;
+
+    background: rgba(37, 37, 37, 0.7);
+}
+
+.widget_color_black:hover
+{
+    background: #252525;
+}
+
+
 .widget_color_orange
 {
     float: right;
@@ -330,11 +345,7 @@ a
     background: #252525;
 }
 
-.widget-area .col-title
-{
-    float: left;
-    width: 290px;
-}
+
 
 .col-footer
 {
@@ -383,4 +394,14 @@ a
 {
     padding: 2px 0;
     text-indent: 12px;
+}
+
+.list
+{
+    margin: 0 0 0 30px;
+}
+
+.list__item
+{
+    padding: 4px 0;
 }
