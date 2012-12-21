@@ -16,7 +16,10 @@
     clear: both;
 }
 
-
+a
+{
+    color: #fff;
+}
 
 .icon
 {
@@ -72,9 +75,9 @@
 
 .page
 {
-    font: lighter 13px 'Cuprum', sans-serif;
+    font: lighter 12px Arial, sans-serif;
 
-    line-height: 1.4em;
+    line-height: 16px;
     color: #fff;
 
     background: url(../i/page-bg.jpg);
@@ -139,6 +142,12 @@
     background: #a47800;
 }
 
+.contacts__link
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .contacts__item
 {
     float: left;
@@ -189,15 +198,13 @@
 
 .widget_color_blue
 {
-    height: 432px;
+    height: 425px;
     background: rgba(0, 134, 156, 0.7);
     cursor: default;
 }
 
 .widget_color_pink
 {
-    padding-bottom: 18px;
-
     border-top: 1px solid #aa6e8f;
     border-bottom: 1px solid #80506b;
     background: #76164c;
@@ -331,7 +338,7 @@
 
 .col-footer
 {
-    height: 31px;
+    height: 37px;
 
     background: #252525;
 }
@@ -362,10 +369,18 @@
 .preview__body
 {
     display: none;
-    padding: 15px 15px 15px 30px;
+    padding: 15px 15px 15px 20px;
+    max-height: 185px;
+    overflow-y: auto;
 }
 
 .preview__body_visibility_visible
 {
     display: block;
+}
+
+.preview__text
+{
+    padding: 2px 0;
+    text-indent: 12px;
 }

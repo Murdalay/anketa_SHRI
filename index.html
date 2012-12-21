@@ -5,8 +5,6 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
-        <link href='http://fonts.googleapis.com/css?family=Cuprum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <!--[if lt IE 9]>
             <link href="css/style.ie.css" rel="stylesheet">
@@ -50,30 +48,42 @@
             <div class="layout__ccol">
 
                 <ul class="contacts">
-                    <li class="contacts__item contacts__item_position_first"><i class="icon icon_type_phone"></i></li>
-                    <li class="contacts__item"><i class="icon icon_type_mail"></i></li>
-                    <li class="contacts__item contacts__item_position_last"><i class="icon icon_type_card"></i></li>
+                    <li class="contacts__item contacts__item_position_first">
+                        <a class="contacts__link" href="callto:murdalay" title="skype">
+                            <i class="icon icon_type_phone"></i>
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a class="contacts__link" href="mailto:murdalay@gmail.com" title="email">
+                            <i class="icon icon_type_mail"></i>
+                        </a>
+                    </li>
+                    <li class="contacts__item contacts__item_position_last">
+                        <a class="contacts__link" href="http://github.com/Murdalay/anketa_SHRI" title="github">
+                            <i class="icon icon_type_card"></i>
+                        </a>
+                    </li>
                 </ul>
 
                 <h2 class="col-title">Общие вопросы</h2>
 
-                <div class="widget widget_color_pink"><i class="icon icon_type_arrow"></i>Фамилия, имя, отчество</div>
+                <div class="widget widget_color_pink" data-open="1"><i class="icon icon_type_arrow"></i>Фамилия, имя, отчество</div>
 
-                <div class="widget widget_color_pink"><i class="icon icon_type_arrow"></i>Год рождения</div>
+                <div class="widget widget_color_pink" data-open="2"><i class="icon icon_type_arrow"></i>Год рождения</div>
 
-                <div class="widget widget_color_pink"><i class="icon icon_type_arrow"></i>Город в котором вы сейчас живете</div>
+                <div class="widget widget_color_pink" data-open="3"><i class="icon icon_type_arrow"></i>Город в котором вы сейчас живете</div>
 
-                <div class="widget widget_color_pink"><i class="icon icon_type_arrow"></i>Вуз, факультет, специальн.,кафедра</div>
+                <div class="widget widget_color_pink" data-open="4"><i class="icon icon_type_arrow"></i>Вуз, факультет, специальн.,кафедра</div>
 
-                <div class="widget widget_color_pink"><i class="icon icon_type_arrow"></i>Год окончания вуза</div>
+                <div class="widget widget_color_pink" data-open="5"><i class="icon icon_type_arrow"></i>Год окончания вуза</div>
 
-                <div class="widget widget_color_pink"><i class="icon icon_type_arrow"></i>Уровень владения английским языком</div>
+                <div class="widget widget_color_pink" data-open="6"><i class="icon icon_type_arrow"></i>Уровень владения английским языком</div>
 
-                <div class="widget widget_color_pink"><i class="icon icon_type_arrow"></i>Что вы ожидаете от участия в Школе</div>
+                <div class="widget widget_color_pink" data-open="7"><i class="icon icon_type_arrow"></i>Что вы ожидаете от участия в Школе</div>
 
-                <div class="widget widget_color_pink"><i class="icon icon_type_arrow"></i>Откуда вы о нас узнали?</div>
+                <div class="widget widget_color_pink" data-open="8"><i class="icon icon_type_arrow"></i>Откуда вы о нас узнали?</div>
 
-                <div class="widget widget_color_pink"><i class="icon icon_type_arrow"></i>Сколько времени вы готовы уделять стажировке или работе в Яндексе?</div>
+                <div class="widget widget_color_pink" data-open="9"><i class="icon icon_type_arrow"></i>Сколько времени вы готовы уделять стажировке или работе в Яндексе?</div>
 
                 <div class="col-footer"></div>
 
@@ -82,26 +92,141 @@
             <div class="layout__rcol">
 
                 <div class="preview">
-                    <h4 class="preview__title">Город, в котором вы живете</h4>
+                    <h4 class="preview__title">Ответ</h4>
 
-                    <div class="preview__body preview__body_visibility_visible" data-content="1">
-
-                        <p class="preview__text">
-                            Веб-интерфейсами я занимаюсь сравнительно недавно. Немногим более года. Но я
-                            постарался взять как можно больше из своего предыдущего опыта в графическом дизайне и использовать
-                            эти знания для создания оригинальных интерфейсов.
-                        </p>
-
+                    <div class="preview__body" data-content="1">
+                        <p class="preview__text">Иваниченко Сергей Юрьевич</p>
                     </div>
 
                     <div class="preview__body" data-content="2">
+                        <p class="preview__text">Год рождения: 1980</p>
+                    </div>
 
+                    <div class="preview__body" data-content="3">
+                        <p class="preview__text">Город: Симферополь</p>
+                    </div>
+
+                    <div class="preview__body" data-content="4">
+                        <p class="preview__text">Вуз, факультет, специальность, кафедра: ТЭИ, журналистика</p>
+                    </div>
+
+                    <div class="preview__body" data-content="5">
+                        <p class="preview__text">Год окончания вуза: 2004</p>
+                    </div>
+
+                    <div class="preview__body" data-content="6">
+                        <p class="preview__text">Уровень владения английским языком: cвободно читаю, разговорный средний.</p>
+                    </div>
+
+                    <div class="preview__body" data-content="7">
                         <p class="preview__text">
-                            Веб-интерфейсами я занимаюсь сравнительно недавно. Немногим более года. Но я
-                            постарался взять как можно больше из своего предыдущего опыта в графическом дизайне и использовать
-                            эти знания для создания оригинальных интерфейсов.
+                            Участие в Школе позволит мне систематизировать и углубить познания в области разработки
+                            интерфейсов. Мне интересен опыт одной из ведущих корпораций в области информационных
+                            технологий, которой является Яндекс. Это касается как методов работы с кодом, так и
+                            принципов оформления и подачи контента.
+                        </p>
+                    </div>
+
+                    <div class="preview__body" data-content="8">
+                        <p class="preview__text">
+                            О ШРИ узнал из интернета. Я слежу за событиями в сфере веб-технологий на полуострове.
+                        </p>
+                    </div>
+
+                    <div class="preview__body" data-content="9">
+                        <p class="preview__text">
+                            Во многом это зависит от впечатлений, полученных на ШРИ. В целом, я заинтересован в
+                            сотрудничестве, но хотелось бы понять, насколько я смог бы вписаться в коллектив.
+                        </p>
+                    </div>
+
+                    <div class="preview__body" data-content="10">
+                        <p class="preview__text">
+                            Веб-интерфейсами я занимаюсь сравнительно недавно. Немногим более года. Но я постарался
+                            взять как можно больше из своего предыдущего опыта в графическом дизайне и использовать эти
+                            знания для своих интерфейсов.
+                        </p>
+                        <p class="preview__text">
+                            Примером может послужить сайт <a href="ttp://globaltek.ru/">globaltek.ru</a>, созданный с помощью технологии Adobe MUSE.
+                            Кроме того, я занимался:<br>
+                            созданием, кастомизацией и русификацией тем для сайтов на Wordpress и Joomla, например, domatlant.com, <a href="http://www.pub-pinta.com/">www.pub-pinta.com</a>, <a href="http://ya-club.com/">ya-club.com</a>
+                            прототипированием и разработкой графических интерфейсов для многих коммерческих и государственных проектов, как реализованных, так и находящихся в стадии реализации. Например, <a href="http://www.kia-revolt.ru/">www.kia-revolt.ru</a>, так же смотрите в разделе с картинками, т.к. большинство интерфейсов не находится в публичном доступе.
+                        </p>
+                    </div>
+
+                    <div class="preview__body" data-content="11">
+                        <p class="preview__text">
+                            Из языков мне доводилось активно использовать только HTML и PHP. Имею небольшой опыт работы
+                            с JS и jQuery. Думаю, скромные школьные познания в Pascal и C++ в данном случае значения не
+                            имеют. Кроме того, мне доводилось сталкиваться с Twitter Bootstrap и некоторыми CMS
+                            (Wordpress, Joomla).
+                        </p>
+                    </div>
+
+                    <div class="preview__body" data-content="12">
+                        <p class="preview__text">Редакторы и среды разработки: Adobe Dreamweaver CS6, Notepad++, Adobe MUSE, Denwer, PhpStorm.</p>
+                    </div>
+
+                    <div class="preview__body" data-content="13">
+                        <p class="preview__text">ОС: MS DOS, OS\2 Merlin, Windows 3.0 – 8, Ubuntu Linux, openSUSE,
+                            Mandriva, MacOS X. <br>
+                            Применял их я в самых различных целях. В основном, для работы с графикой и развелечений.
+                        </p>
+                    </div>
+
+                    <div class="preview__body" data-content="14">
+                        <p class="preview__text">
+                            Приходилось работать с системами контроля версий. С Adobe Version CUE, SVN, Github.
+                            Склоняюсь к использованию последней.
+                        </p>
+                    </div>
+
+                    <div class="preview__body" data-content="15">
+                        <p class="preview__text">
+                            Использовались такие системы постановки задач: Мегаплан, Redmine, Mite, Basecamp, openERP.
+                        </p>
+                    </div>
+
+                    <div class="preview__body" data-content="16">
+                        <p class="preview__text"><a href="http://stackoverflow.com">stackoverflow.com</a></p>
+                        <p class="preview__text"><a href="http://habrahabr.ru">habrahabr.ru</a></p>
+                        <p class="preview__text"><a href="http://javascript.ru">javascript.ru</a></p>
+                        <p class="preview__text"><a href="http://htmlbook.ru">htmlbook.ru</a></p>
+                        <p class="preview__text"><a href="http://thenounproject.com">thenounproject.com</a></p>
+                    </div>
+
+                    <div class="preview__body" data-content="17">
+                        <p class="preview__text">Опыт работы</p>
+
+                        <p class="preview__text">С 1996 года по 2005 работал дизайнером в нескольких издательствах, в том числе и в собственном, где совмещал дизайн с директорскими функциями.</p>
+                        <p class="preview__text">
+                            "Крымская ривьера" журнал, Ялта, 2006-2007<br>
+                            Арт-директор, занимался дизайном, руководил группой дизайнеров художников и фотографов.
                         </p>
 
+                        <p class="preview__text">
+                            "Евразийский Химический Рынок" журнал, Симферополь, 2007-2008<br>
+                            Видеооператор, начальник отдела видеопродакшена. Занимался организацией и проведением съемок корпоративной видеопродукции, ее подготовкой к тиражированию.
+                        </p>
+
+                        <p class="preview__text">
+                            "Главный проспект" газета, Симферополь, 2008-2008<br>
+                            Начальник дизайнерского отдела.
+                        </p>
+
+                        <p class="preview__text">
+                            IndiGO психологический журнал, Симферополь, 2009-2011<br>
+                            Арт-директор, начальник дизайнерского отдела.
+                        </p>
+
+                        <p class="preview__text">
+                            Globaltek, дизайнерское агентство, Москва, 2011-2012<br>
+                            Менеджер по проектам, разработчик. Занимаюсь поддержкой и сопровождением проектов по разработке веб-интерфейсов для государственных и частных организаций. Кроме того, разработкой небольших проектов на WP, прототипированием, дизайном элементов интерфейса, созданием презентаций и корпоративного видео.
+                        </p>
+
+                        <p class="preview__text">
+                            У меня большой опыт работы в команде, в первую очередь, на руководящих должностях. Я умею организовывать рабочий процесс, производить постановку задач и их дальнейший контроль. В последнее время, я пришел к тому, что работа в качестве менеджера занимает большую часть моего рабочего времени, практически вытеснив разработку.
+                        </p>
                     </div>
 
                 </div>
@@ -110,29 +235,29 @@
 
                     <h2 class="col-title">Опыт разработки</h2>
 
-                    <div class="widget widget_color_orange"><i class="icon icon_type_arrow"></i>С какими редакторами и средами разработки вы знакомы? Чем обычно пользуетесь?</div>
+                    <div class="widget widget_color_orange" data-open="12"><i class="icon icon_type_arrow"></i>С какими редакторами и средами разработки вы знакомы? Чем обычно пользуетесь?</div>
 
-                    <div class="widget widget_color_purple"><i class="icon icon_type_arrow"></i>
+                    <div class="widget widget_color_purple" data-open="10"><i class="icon icon_type_arrow"></i>
                         Расскажите нам о вашем опыте разработки. Ничего не упускайте: это может быть как
                         серьезный интерфейс, так и просто домашняя страничка.
                     </div>
 
-                    <div class="widget widget_color_dark-grey"><i class="icon icon_type_arrow"></i>Какие языки программирования, фреймворки и технологии вы использовали?</div>
+                    <div class="widget widget_color_dark-grey" data-open="11"><i class="icon icon_type_arrow"></i>Какие языки программирования, фреймворки и технологии вы использовали?</div>
 
-                    <div class="widget widget_color_light-grey"><i class="icon icon_type_arrow"></i>С какими ОС приходилось сталкиваться? Для каких целей вы их применяли?</div>
+                    <div class="widget widget_color_light-grey" data-open="13"><i class="icon icon_type_arrow"></i>С какими ОС приходилось сталкиваться? Для каких целей вы их применяли?</div>
 
-                    <div class="widget widget_color_light-pink"><i class="icon icon_type_arrow"></i>Использовали ли вы системы постановки и ведения задач?</div>
+                    <div class="widget widget_color_light-pink" data-open="14"><i class="icon icon_type_arrow"></i>Использовали ли вы системы постановки и ведения задач?</div>
 
                     <div class="clearfix"></div>
 
-                    <div class="widget widget_color_brawn"><i class="icon icon_type_arrow"></i>
+                    <div class="widget widget_color_brawn" data-open="15"><i class="icon icon_type_arrow"></i>
                         Приходилось ли вам работать с системами контроля версий? С какими?
                         Какая из них вам нравится больше всего
                     </div>
 
                     <div class="clearfix"></div>
 
-                    <div class="widget widget_color_violet"><i class="icon icon_type_arrow"></i>Какие полезные для фронтенд-разработчика ресурсы вы используете и готовы посоветовать?</div>
+                    <div class="widget widget_color_violet" data-open="16"><i class="icon icon_type_arrow"></i>Какие полезные для фронтенд-разработчика ресурсы вы используете и готовы посоветовать?</div>
 
                     <div class="clearfix"></div>
                 </div>
