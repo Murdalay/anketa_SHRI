@@ -52,6 +52,9 @@
 
 .page
 {
+    font: lighter 13px 'Cuprum', sans-serif;
+    line-height: 1.4em;
+    color: #fff;
     background: url(../i/page-bg.jpg);
 }
 
@@ -60,5 +63,104 @@
     margin: auto;
     min-width: 1000px;
     max-width: 1082px;
+    height: 848px;
     background: url(../i/body-bg.png) 50% 0 repeat-y;
+}
+
+/* Стили для раскладки страницы */
+.layout
+{
+    margin: auto;
+    width: 950px;
+    overflow: hidden;
+}
+
+.layout__lcol
+{
+    float: left;
+    margin: 0 0 0 34px;
+    width: 270px;
+}
+
+.layout__ccol
+{
+    float: left;
+    margin: 0 0 0 30px;
+    width: 170px;
+}
+
+.layout__rcol
+{
+    float: left;
+    margin: 0 0 0 20px;
+    width: 418px;
+}
+
+/* Контент */
+.photo
+{
+    margin: 0 0 20px;
+    border: 0;
+}
+
+.contacts
+{
+    margin: 0 0 20px 0;
+    overflow: hidden;
+    list-style: none;
+    background: #a47800;
+}
+
+.contacts__item
+{
+    float: left;
+    width: 55px;
+    height: 40px;
+    border-right: 1px solid #897338;
+    border-left: 1px solid #c6ab60;
+}
+
+.contacts__item_position_first
+{
+    border-left: 0;
+}
+
+.contacts__item_position_last
+{
+    border-right: 0;
+}
+
+.contacts .icon
+{
+    margin: 8px auto;
+    cursor: pointer;
+}
+
+.widget
+{
+    padding: 10px 6px 20px 20px;
+}
+
+.widget_color_blue
+{
+    background: rgba(0, 134, 156, 0.7);
+}
+
+.widget__title
+{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 15px 0 8px 0;
+    color: #000;
+}
+
+.col-title
+{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 0 0 0 10px;
+    height: 60px;
+    line-height: 40px;
+    color: #be1e4a;
+    background: #252525;
 }
