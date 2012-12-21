@@ -52,7 +52,7 @@
 
 .page
 {
-    background: url(../i/page-bg.png);
+    background: url(../i/page-bg.jpg);
 }
 
 .page__body
@@ -60,5 +60,5 @@
     margin: auto;
     min-width: 1000px;
     max-width: 1082px;
-    background: url(../i/body.png) 50% 0 no-repeat;
+    background: url(../i/body-bg.png) 50% 0 repeat-y;
 }
